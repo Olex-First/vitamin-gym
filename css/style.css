@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@700&family=Roboto:wght@400;700;900&display=swap');
+body {
+    background-color: rgb(0, 0, 0);
+   
+}
+h1 {
+    margin: 0px;
+    color:#FDC734;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+.headero {
+    background: black;
+    height: 49px;
+}
+.header {
+    background-color: #1C1919;
+    height: 55px;
+    
+}
+.conteiner {
+    max-width: 1375px ;
+    margin: 0 auto;
+   padding: 0px 15px;
+    
+}
+@media (max-width:1375px) {
+    .conteiner{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px) {
+    .conteiner{
+        max-width: 750px;
+    }
+}@media (max-width:767px) {
+    .conteiner{
+        max-width: none;
+    }
+}
+
+.headerBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: st;
+}
+.headerBody img {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 100%;
+}
+.headerList {
+    display: flex;
+    list-style: none;
+}
+.headerList a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+}
+.orange {
+    color: #FDC734;
+}
+.white {
+    color: #FFFFFF;
+}
+.white:hover {
+    color: #FDC734;
+}
+.mainbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+.mainbody img{
+    width: 100%;
+
+}
+.listm {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-inline-start: 0px;
+    color: white;
+    font-family: 'inter', sans-serif;
+
+}
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 137.9%;
+}
+.listm p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 181.9%;
+}
+.listm a {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 2px solid #F53939;
+    padding: 16px 37px;
+    background-color:#F53939 ;
+}
+
+.secondconteiner {
+    margin: 100px 0px 50px 216px;
+    
+}
+.secondbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-inline-start: 0px;
+    
+   
+}
+
+.left ul {
+    list-style: none;
+    
+    
+}
+h3 {
+    font-family:'Arial';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.second_text {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+.handsome {
+    width: 100%;
+}
+.background {
+}
+.conteiner {
+    
+}
+.third_body li, a { 
+    list-style: none;
+    text-decoration: none;
+    
+    
+    
+
+}
+.third_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.third_text { 
+    border: 1px solid rgba(97, 97, 94, 0.56);
+    background: rgba(97, 97, 94, 0.56);
+    padding: 25px 35px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 1020px;
+    margin-block-end: 19px;
+    height: 77px;
+}
+.uno {
+    margin-top: 100px;
+}
+.second_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline-start: 0px;
+   
+}
+.second_btn_a {
+    margin-right: 90px;
+    border: 2px solid #645840;
+    padding: 20px 64px;
+    background-color: #645840;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.second_btn_b { 
+    border: 2px solid #645840;
+    padding: 20px 44px;
+    background-color: #645840;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+.review:first-child {
+    padding-inline-start: 0px;
+    margin-top: 193px;
+    
+   
+}
+.background {
+    background: url(/src/image/third/fisico-perfetto-scaled-2048x1536\ 1.png);
+    width: 1979px;
+    height: 899px;
+}
+.forth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 300px;
+    
+}
+.forth_text  {
+   
+    padding: 27px 68px 30px 38px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: 1px solid rgba(97, 97, 94, 0.56);
+    background-color: rgba(97, 97, 94, 0.56); 
+    width: 460px;
+    margin-right: 6px;
+    color: white;
+    
+}
+.photo img {
+    margin-top: 34px;
+    margin-left: 72px;
+}
+.footer_firts p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.footer_firts a {
+     border: 2px solid #645840;
+    padding: 15px 82px;
+    background-color: #645840;
+    color: white;
+}
+.footer_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 165px;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 137.9%;
+color: white;
+}
+    
